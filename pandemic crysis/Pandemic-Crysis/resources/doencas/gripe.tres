@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="Doenca" format=3 uid="uid://d2jmcj4r5ga0j"]
-
-[ext_resource type="Script" uid="uid://b4soub18wtfet" path="res://Doenca.gd" id="1_clshl"]
-
-[resource]
-script = ExtResource("1_clshl")
-nome = "Gripe"
-recompensa_financeira = 50
-metadata/_custom_type_script = "uid://b4soub18wtfet"

@@ -1,0 +1,7 @@
+res://menu_principal.gd
+res://loja_de_upgrades.gd
+res://relatorio_diario.gd
+res://game_over.gd
+res://resources/doencas/testes.gd
+res://triagem.gd
+res://LojaDeUpgrades.tscn
