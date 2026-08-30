@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Doenca" format=3]
+
+[ext_resource type="Script" uid="uid://b4soub18wtfet" path="res://Doenca.gd" id="1_doenca"]
+
+[resource]
+script = ExtResource("1_doenca")
+nome = "Dengue"
+sintomas = Array[String](["Febre alta repentina", "Dor atrás dos olhos", "Manchas vermelhas na pele", "Dor muscular intensa"])
+recompensa_financeira = 90
+semana_de_aparicao = 1
+metadata/_custom_type_script = "uid://b4soub18wtfet"
