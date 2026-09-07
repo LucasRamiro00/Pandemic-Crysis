@@ -1,7 +1,12 @@
-res://menu_principal.gd
-res://loja_de_upgrades.gd
-res://relatorio_diario.gd
-res://game_over.gd
-res://resources/doencas/testes.gd
+res://resources/doencas/Testes.tscn
+res://resources/doencas/gripe.tres
+res://resources/doencas/dengue.tres
+res://resources/doencas/pneumonia.tres
+res://resources/doencas/intoxicação alimentar.tres
+res://resources/doencas/leptospirose.tres
+res://resources/doencas/tuberculose.tres
+res://resources/doencas/diabetes.tres
+res://resources/doencas/ebola.tres
+res://resources/doencas/raiva humana.tres
+res://resources/doencas/sarampo.tres
 res://triagem.gd
-res://LojaDeUpgrades.tscn

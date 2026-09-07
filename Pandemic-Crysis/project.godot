@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Pandemic Crysis"
-run/main_scene="uid://byqrwusje0snf"
+run/main_scene="uid://dlqjfg7slrsun"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 

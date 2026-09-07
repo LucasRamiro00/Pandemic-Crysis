@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Doenca" format=3 uid="uid://cm4qwfikrapt3"]
+
+[ext_resource type="Script" uid="uid://b4soub18wtfet" path="res://Doenca.gd" id="1_rmwxd"]
+
+[resource]
+script = ExtResource("1_rmwxd")
+nome = "Pneumonia"
+sintomas = Array[String](["Tosse com secreção", "Falta de ar", "Dor no peito", "Febre"])
+recompensa_financeira = 400
+semana_de_aparicao = 2
+metadata/_custom_type_script = "uid://b4soub18wtfet"
