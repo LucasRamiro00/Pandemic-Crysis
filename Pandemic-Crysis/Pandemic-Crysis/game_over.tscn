@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://bg56b42av3r7a"]
+
+[ext_resource type="Script" uid="uid://dquljladvi6qe" path="res://game_over.gd" id="1_y26ei"]
+
+[node name="GameOver" type="Control" unique_id=1000814196]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_y26ei")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2011277166]
+layout_mode = 0
+offset_right = 1151.0
+offset_bottom = 649.0
+color = Color(0.0627451, 0.078431375, 0.105882354, 1)
+
+[node name="Label" type="Label" parent="ColorRect" unique_id=1393295466]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 176.0
+offset_right = 832.0
+offset_bottom = 368.0
+theme_override_font_sizes/font_size = 32
+text = "GAME OVER - O Hospital Faliu!
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="ColorRect" unique_id=189750659]
+layout_mode = 0
+offset_left = 440.0
+offset_top = 392.0
+offset_right = 712.0
+offset_bottom = 483.0
+text = "Voltar ao Menu
+"
+
+[connection signal="pressed" from="ColorRect/Button" to="." method="_on_button_pressed"]
