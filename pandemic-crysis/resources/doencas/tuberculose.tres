@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Doenca" format=3 uid="uid://btfp3adsa5h2f"]
+
+[ext_resource type="Script" uid="uid://b4soub18wtfet" path="res://Doenca.gd" id="1_astmn"]
+
+[resource]
+script = ExtResource("1_astmn")
+nome = "Tuberculose"
+sintomas = Array[String](["Febre", "Tosse", "Perda de peso", "Suor noturno"])
+recompensa_financeira = 600
+semana_de_aparicao = 3
+metadata/_custom_type_script = "uid://b4soub18wtfet"

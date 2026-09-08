@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Doenca" format=3 uid="uid://ba4j5n4vpklo1"]
+
+[ext_resource type="Script" uid="uid://b4soub18wtfet" path="res://Doenca.gd" id="1_qn3cv"]
+
+[resource]
+script = ExtResource("1_qn3cv")
+nome = "Intoxicação Alimentar"
+sintomas = Array[String](["Náusea", "Vômito", "Diarreia", "Dor abdominal"])
+recompensa_financeira = 200
+semana_de_aparicao = 1
+metadata/_custom_type_script = "uid://b4soub18wtfet"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Doenca" format=3 uid="uid://6gh1f2grtng"]
+
+[ext_resource type="Script" uid="uid://b4soub18wtfet" path="res://Doenca.gd" id="1_xf70m"]
+
+[resource]
+script = ExtResource("1_xf70m")
+nome = "Ebola"
+sintomas = Array[String](["Febre", "Dor no corpo", "Vômito", "Diarreia", "Sangramento"])
+recompensa_financeira = 650
+semana_de_aparicao = 3
+metadata/_custom_type_script = "uid://b4soub18wtfet"

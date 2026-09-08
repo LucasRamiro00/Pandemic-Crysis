@@ -1,0 +1,103 @@
+[gd_scene load_steps=2 format=3 uid="uid://juyix58gjnmt"]
+
+[ext_resource type="Script" uid="uid://h0e53peymj68" path="res://loja_de_upgrades.gd" id="1_1xfdt"]
+
+[node name="LojaDeUpgrades" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1xfdt")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0627451, 0.078431375, 0.105882354, 1)
+
+[node name="Margem" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 32
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 32
+
+[node name="Coluna" type="VBoxContainer" parent="Margem"]
+layout_mode = 2
+theme_override_constants/separation = 18
+alignment = 1
+
+[node name="Titulo" type="Label" parent="Margem/Coluna"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 44
+text = "LOJA DE UPGRADES"
+horizontal_alignment = 1
+
+[node name="Saldo" type="Label" parent="Margem/Coluna"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "SALDO: $0"
+horizontal_alignment = 1
+
+[node name="Separador" type="HSeparator" parent="Margem/Coluna"]
+layout_mode = 2
+
+[node name="CentroBotoes" type="CenterContainer" parent="Margem/Coluna"]
+layout_mode = 2
+
+[node name="Botoes" type="VBoxContainer" parent="Margem/Coluna/CentroBotoes"]
+custom_minimum_size = Vector2(820, 0)
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="AmpliarLeitosButton" type="Button" parent="Margem/Coluna/CentroBotoes/Botoes"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 58)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "AMPLIAR LEITOS"
+
+[node name="TreinarFuncionariosButton" type="Button" parent="Margem/Coluna/CentroBotoes/Botoes"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 58)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "TREINAR FUNCIONÁRIOS"
+
+[node name="ButtModernizarTerminalButtonon" type="Button" parent="Margem/Coluna/CentroBotoes/Botoes"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 58)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "MODERNIZAR TERMINAL"
+
+[node name="EspacoFinal" type="Control" parent="Margem/Coluna"]
+custom_minimum_size = Vector2(0, 10)
+layout_mode = 2
+
+[node name="CentroAvancar" type="CenterContainer" parent="Margem/Coluna"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Margem/Coluna/CentroAvancar"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(420, 56)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Avançar para o Próximo Dia"
+
+[connection signal="pressed" from="Margem/Coluna/CentroBotoes/Botoes/AmpliarLeitosButton" to="." method="_on_ampliar_leitos_button_pressed"]
+[connection signal="pressed" from="Margem/Coluna/CentroBotoes/Botoes/TreinarFuncionariosButton" to="." method="_on_treinar_funcionarios_button_pressed"]
+[connection signal="pressed" from="Margem/Coluna/CentroBotoes/Botoes/ButtModernizarTerminalButtonon" to="." method="_on_modernizar_terminal_button_pressed"]
+[connection signal="pressed" from="Margem/Coluna/CentroAvancar/Button" to="." method="_on_proximo_dia_pressed"]

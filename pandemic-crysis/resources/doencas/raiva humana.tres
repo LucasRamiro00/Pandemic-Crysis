@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Doenca" format=3 uid="uid://bm4uffi0ty16n"]
+
+[ext_resource type="Script" uid="uid://b4soub18wtfet" path="res://Doenca.gd" id="1_j36p7"]
+
+[resource]
+script = ExtResource("1_j36p7")
+nome = "Raiva Humana"
+sintomas = Array[String](["Febre", "Espasmos musculares", "Ansiedade", "Hidrofobia"])
+recompensa_financeira = 650
+semana_de_aparicao = 3
+metadata/_custom_type_script = "uid://b4soub18wtfet"
