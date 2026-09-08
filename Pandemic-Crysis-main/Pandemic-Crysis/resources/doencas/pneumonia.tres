@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_rmwxd")
 nome = "Pneumonia"
-sintomas = Array[String](["Tosse com secreção", "Falta de ar", "Dor no peito", "Febre"])
+sintomas = Array[String](["Febre", "Tosse", "Falta de ar", "Dor no peito"])
 recompensa_financeira = 400
 semana_de_aparicao = 2
 metadata/_custom_type_script = "uid://b4soub18wtfet"

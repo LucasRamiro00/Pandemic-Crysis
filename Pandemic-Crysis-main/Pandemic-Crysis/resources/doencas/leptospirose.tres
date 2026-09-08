@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_d3r0y")
 nome = "Leptospirose"
-sintomas = Array[String](["Febre aguda", "Dor na panturrilha", "Olhos amarelados"])
+sintomas = Array[String](["Febre", "Dor no corpo", "Dor na panturrilha", "Olhos amarelados"])
 recompensa_financeira = 450
 semana_de_aparicao = 2
 metadata/_custom_type_script = "uid://b4soub18wtfet"

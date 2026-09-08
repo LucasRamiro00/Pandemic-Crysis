@@ -56,11 +56,23 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "Pacientes hoje: 0 / 10"
 
+[node name="LblPlacar" type="Label" parent="Margem/Coluna/Cabecalho"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Acertos: 0  |  Erros: 0"
+
 [node name="LblDinheiro" type="Label" parent="Margem/Coluna/Cabecalho" unique_id=1819923648]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "Caixa: R$ 1000"
+
+[node name="BtnSair" type="Button" parent="Margem/Coluna/Cabecalho"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Sair"
 
 [node name="Separador" type="HSeparator" parent="Margem/Coluna" unique_id=281440785]
 layout_mode = 2
@@ -110,6 +122,13 @@ size_flags_vertical = 3
 theme_override_font_sizes/font_size = 18
 text = "-  (sintomas aparecem aqui)"
 autowrap_mode = 3
+
+[node name="BtnExame" type="Button" parent="Margem/Coluna/Corpo/PainelProntuario/MargemProntuario/ColunaProntuario"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "Solicitar exame (R$ 50)"
 
 [node name="PainelDiagnostico" type="PanelContainer" parent="Margem/Coluna/Corpo" unique_id=2066165279]
 unique_name_in_owner = true

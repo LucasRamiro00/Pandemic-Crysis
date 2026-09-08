@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_clshl")
 nome = "Gripe"
-sintomas = Array[String](["Febre", "Coriza", "Tosse seca", "Dor no corpo"])
+sintomas = Array[String](["Febre", "Tosse", "Coriza", "Dor no corpo"])
 recompensa_financeira = 150
 semana_de_aparicao = 1
 metadata/_custom_type_script = "uid://b4soub18wtfet"

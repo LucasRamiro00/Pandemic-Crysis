@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_n4tty")
 nome = "Diabetes"
-sintomas = Array[String](["Muita sede", "Fome constante", "Perda de peso"])
+sintomas = Array[String](["Perda de peso", "Náusea", "Muita sede", "Fome constante"])
 recompensa_financeira = 300
 semana_de_aparicao = 3
 metadata/_custom_type_script = "uid://b4soub18wtfet"

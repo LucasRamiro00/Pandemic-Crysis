@@ -10,6 +10,14 @@ var dias_totais_jogados: int = 1
 var pandemia_ativa: bool = false
 const LIMITE_DIAS_TOTAIS: int = 21 # 3 semanas completas de gameplay[cite: 2]
 
+# Chamada pelo botão "Jogar" do menu principal, junto do GameManager.
+# Sem isto, uma partida nova começa no dia/semana em que a anterior terminou.
+func reiniciar_tempo() -> void:
+	dia_atual = 1
+	semana_atual = 1
+	dias_totais_jogados = 1
+	pandemia_ativa = false
+
 func avancar_dia() -> void:
 	dia_atual += 1
 	dias_totais_jogados += 1

@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_5lmms")
 nome = "Sarampo"
-sintomas = Array[String](["Febre", "Tosse", "Irritação nos olhos", "Manchas vermelhas pelo corpo"])
+sintomas = Array[String](["Febre", "Tosse", "Manchas vermelhas na pele", "Irritação nos olhos"])
 recompensa_financeira = 700
-semana_de_aparicao = 4
+semana_de_aparicao = 3
 metadata/_custom_type_script = "uid://b4soub18wtfet"

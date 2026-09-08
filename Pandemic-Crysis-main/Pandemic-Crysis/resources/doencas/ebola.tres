@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_xf70m")
 nome = "Ebola"
-sintomas = Array[String](["Febre alta", "Dores musculares", "Vômitos", "Diarreia", "Sangramentos internos graves"])
+sintomas = Array[String](["Febre", "Dor no corpo", "Vômito", "Diarreia", "Sangramento"])
 recompensa_financeira = 650
-semana_de_aparicao = 4
+semana_de_aparicao = 3
 metadata/_custom_type_script = "uid://b4soub18wtfet"

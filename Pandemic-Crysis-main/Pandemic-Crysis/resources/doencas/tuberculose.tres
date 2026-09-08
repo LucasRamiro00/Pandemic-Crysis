@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_astmn")
 nome = "Tuberculose"
-sintomas = Array[String](["Tosse persistente", "Suor noturno intenso", "Perda de peso"])
+sintomas = Array[String](["Febre", "Tosse", "Perda de peso", "Suor noturno"])
 recompensa_financeira = 600
 semana_de_aparicao = 3
 metadata/_custom_type_script = "uid://b4soub18wtfet"

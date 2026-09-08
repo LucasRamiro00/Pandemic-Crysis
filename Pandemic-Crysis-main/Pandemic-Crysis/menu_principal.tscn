@@ -28,18 +28,27 @@ color = Color(0.0627451, 0.078431375, 0.105882354, 1)
 [node name="Jogar" type="Button" parent="ColorRect" unique_id=19391393]
 layout_mode = 0
 offset_left = 384.0
-offset_top = 360.0
+offset_top = 335.0
 offset_right = 770.0
-offset_bottom = 440.0
+offset_bottom = 405.0
 text = "Jogar
+"
+
+[node name="Continuar" type="Button" parent="ColorRect"]
+layout_mode = 0
+offset_left = 384.0
+offset_top = 419.0
+offset_right = 770.0
+offset_bottom = 489.0
+text = "Continuar
 "
 
 [node name="Sair" type="Button" parent="ColorRect" unique_id=2092643321]
 layout_mode = 0
 offset_left = 384.0
-offset_top = 488.0
+offset_top = 503.0
 offset_right = 770.0
-offset_bottom = 565.0
+offset_bottom = 573.0
 text = "Sair
 "
 
@@ -60,4 +69,5 @@ scale = Vector2(1.5153848, 1.3571428)
 texture = ExtResource("2_gmcsc")
 
 [connection signal="pressed" from="ColorRect/Jogar" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="ColorRect/Continuar" to="." method="_on_continuar_pressed"]
 [connection signal="pressed" from="ColorRect/Sair" to="." method="_on_sair_pressed"]

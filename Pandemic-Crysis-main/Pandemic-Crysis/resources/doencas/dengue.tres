@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource("1_opgvp")
 nome = "Dengue"
-sintomas = Array[String](["Febre alta", "Dor atrás dos olhos", "Manchas vermelhas"])
+sintomas = Array[String](["Febre", "Dor no corpo", "Dor atrás dos olhos", "Manchas vermelhas na pele"])
 recompensa_financeira = 250
 semana_de_aparicao = 1
